@@ -1,0 +1,19 @@
+{
+  "name": "@spear/platform",
+  "version": "1.0.0",
+  "description": "Spear - Web3 Freelance Platform with Polkadot Integration",
+  "main": "src/mitsu_lancer.html",
+  "scripts": {
+    "dev": "npx http-server src -p 3000",
+    "compile": "npx hardhat compile",
+    "test": "npx hardhat test",
+    "deploy": "npx hardhat run scripts/deploy.js --network sepolia"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "hardhat": "^2.17.0"
+  },
+  "dependencies": {
+    "ethers": "^6.15.0"
+  }
+}

@@ -14,8 +14,8 @@ Una plataforma descentralizada para freelancers con escrow inteligente, pagos po
 ## 📋 Información del Contrato
 
 - **Red:** Sepolia Testnet
-- **Dirección:** `0x9979F6a5cE685Fca312f933Cf942C19faBF7e96d`
-- **Explorador:** [Ver en Etherscan](https://sepolia.etherscan.io/address/0x9979F6a5cE685Fca312f933Cf942C19faBF7e96d)
+- **Dirección:** `0xeda2FdE00141C5453fBaf3c6856222A289ba3BE6`
+- **Explorador:** [Ver en Etherscan](https://sepolia.etherscan.io/address/0xeda2FdE00141C5453fBaf3c6856222A289ba3BE6)
 
 ## 🛠️ Instalación y Desarrollo
 
@@ -27,8 +27,8 @@ Una plataforma descentralizada para freelancers con escrow inteligente, pagos po
 ### Configuración
 ```bash
 # Clonar repositorio
-git clone <repo-url>
-cd Spear
+git clone https://github.com/leocagli/spear.git
+cd spear
 
 # Instalar dependencias
 npm install
@@ -45,14 +45,14 @@ npm run dev
 
 ### Deployment
 ```bash
-# Configurar clave privada en hardhat.config.js
-# Obtener ETH de testnet: https://sepoliafaucet.com/
+# Configurar clave privada
+export PRIVATE_KEY="tu_clave_privada"
 
 # Deploy a Sepolia
 npm run deploy
 
 # Verificar contrato
-npx hardhat verify --network sepolia 0x9979F6a5cE685Fca312f933Cf942C19faBF7e96d
+npx hardhat verify --network sepolia 0xeda2FdE00141C5453fBaf3c6856222A289ba3BE6
 ```
 
 ## 📖 Cómo Usar
@@ -135,8 +135,8 @@ MIT License - Ver archivo LICENSE para detalles.
 
 ## 📞 Soporte
 
-- **Issues:** [GitHub Issues](https://github.com/tu-usuario/spear/issues)
-- **Documentación:** [Wiki del proyecto](https://github.com/tu-usuario/spear/wiki)
+- **Issues:** [GitHub Issues](https://github.com/leocagli/spear/issues)
+- **Documentación:** [Wiki del proyecto](https://github.com/leocagli/spear/wiki)
 
 ---
 

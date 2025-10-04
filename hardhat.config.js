@@ -9,7 +9,9 @@ module.exports = {
     sepolia: {
       url: "https://eth-sepolia.public.blastapi.io",
       chainId: 11155111,
-      accounts: process.env.PRIVATE_KEY ? [process.env.PRIVATE_KEY] : []
+      accounts: process.env.PRIVATE_KEY ? [process.env.PRIVATE_KEY] : [],
+      timeout: 60000,
+      gasPrice: 20000000000
     }
   }
 };

@@ -2,6 +2,12 @@
 
 Una plataforma descentralizada para freelancers con escrow inteligente, pagos por milestones y 0% de comisiones.
 
+## 🌐 Demo en Vivo
+
+**🔗 Prueba Spear:** https://leocagli.github.io/spear/
+
+*Conecta tu MetaMask en Sepolia Testnet y crea tu primer proyecto Web3*
+
 ## 🚀 Características
 
 - **0% Comisiones** (1-3% con protección premium)
@@ -22,7 +28,7 @@ Una plataforma descentralizada para freelancers con escrow inteligente, pagos po
 ### Prerrequisitos
 - Node.js 16+
 - MetaMask
-- ETH de testnet en Sepolia
+- ETH de testnet en Sepolia ([Obtener aquí](https://sepoliafaucet.com/))
 
 ### Configuración
 ```bash
@@ -57,6 +63,11 @@ npx hardhat verify --network sepolia 0xeda2FdE00141C5453fBaf3c6856222A289ba3BE6
 
 ## 📖 Cómo Usar
 
+### 🎯 Acceso Rápido
+1. **Ve a:** https://leocagli.github.io/spear/
+2. **Conecta MetaMask** (se cambiará automáticamente a Sepolia)
+3. **¡Empieza a crear proyectos!**
+
 ### Para Clientes
 1. Conecta tu wallet MetaMask
 2. Cambia a Sepolia Testnet
@@ -84,6 +95,7 @@ Spear/
 │   └── SpearEscrow.sol      # Contrato principal
 ├── src/
 │   └── mitsu_lancer.html    # Frontend Web3
+├── index.html               # GitHub Pages (copia del frontend)
 ├── test/
 │   └── SpearEscrow.js       # Tests del contrato
 ├── scripts/
@@ -121,6 +133,13 @@ Spear/
 - **Moonbeam** (Polkadot - Futuro)
 - **Moonriver** (Kusama - Futuro)
 
+## 📱 Enlaces Útiles
+
+- **🌐 Demo:** https://leocagli.github.io/spear/
+- **📊 Contrato:** https://sepolia.etherscan.io/address/0xeda2FdE00141C5453fBaf3c6856222A289ba3BE6
+- **💧 Faucet ETH:** https://sepoliafaucet.com/
+- **🦊 MetaMask:** https://metamask.io/
+
 ## 📄 Licencia
 
 MIT License - Ver archivo LICENSE para detalles.
@@ -141,3 +160,5 @@ MIT License - Ver archivo LICENSE para detalles.
 ---
 
 **Spear** - Revolucionando el freelance con Web3 🚀
+
+*Prueba la demo: https://leocagli.github.io/spear/*
